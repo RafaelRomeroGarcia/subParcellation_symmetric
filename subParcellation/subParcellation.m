@@ -9,6 +9,7 @@
 % University of Cambridge 
 
 %Requirements
+%IMPORTANT: For an accurate symetric parcellation, it is recommended to use fsaverage_sym 
 %Freesurfer needs to be installed
 %Freesurfer libraries (freesurfer/matlab) need to be added to matlab path
 %Add the folder SubParcellation_MFiles to Matlab path
@@ -17,7 +18,7 @@
 %Usage
 %
 % Subject to parcellate, has to be located at $SUBJECTS_DIR
-% subject_name='fsaverage'       
+% subject_name='fsaverage_sym'       
 % Area in mm2 of each parcel
 % surface=300;                                     
 % subParcellation(subject_name,surface);
